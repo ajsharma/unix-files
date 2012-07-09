@@ -1,0 +1,9 @@
+# No more welcome/copyright message on start up
+startup message off
+
+# Allow a long history of lines
+defscrollback 10000
+
+#change the hardstatus settings to give an window list at the bottom of the screen, with the time and date and with the current window highlighted.
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
