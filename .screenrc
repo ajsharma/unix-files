@@ -1,5 +1,5 @@
 # No more welcome/copyright message on start up
-startup message off
+startup_message off
 
 # Allow a long history of lines
 defscrollback 10000
